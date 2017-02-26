@@ -1,0 +1,9 @@
+.vscode
+.idea
+.settings
+.project
+vendor
+target
+out
+**/*.exe
+**/*.iml

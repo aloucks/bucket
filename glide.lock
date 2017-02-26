@@ -1,0 +1,40 @@
+hash: 5e1b6893800bce161ddc12d4bbe224ab515af7e3ea171ef22a8d1557547d6048
+updated: 2017-02-27T20:03:43.6241959-05:00
+imports:
+- name: github.com/aws/aws-sdk-go
+  version: d19d19cb59645a11f74f4f9c3c6a4895cc1efdd8
+  subpackages:
+  - aws
+  - aws/awserr
+  - aws/awsutil
+  - aws/client
+  - aws/client/metadata
+  - aws/corehandlers
+  - aws/credentials
+  - aws/credentials/ec2rolecreds
+  - aws/credentials/endpointcreds
+  - aws/credentials/stscreds
+  - aws/defaults
+  - aws/ec2metadata
+  - aws/endpoints
+  - aws/request
+  - aws/session
+  - aws/signer/v4
+  - private/protocol
+  - private/protocol/query
+  - private/protocol/query/queryutil
+  - private/protocol/rest
+  - private/protocol/restxml
+  - private/protocol/xml/xmlutil
+  - private/waiter
+  - service/s3
+  - service/sts
+- name: github.com/go-ini/ini
+  version: c437d20015c2ab6454b7a66a13109ff0fb99e17a
+- name: github.com/jmespath/go-jmespath
+  version: bd40a432e4c76585ef6b72d3fd96fb9b6dc7b68d
+- name: github.com/spf13/cobra
+  version: 92ea23a837e66f46ac9e7d04fa826602b7b0a42d
+  subpackages:
+  - cobra
+testImports: []
